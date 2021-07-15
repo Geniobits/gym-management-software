@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="600.0" style="-fx-background-color: #1C69D1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="geniobits.dashboard.controller.regesterController">
+    <children>
+        <Pane layoutX="395.0" prefHeight="503.0" prefWidth="447.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="395.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="75.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/logo2.png" />
+                    </image>
+                </ImageView>
+                <Label alignment="CENTER" layoutX="141.0" layoutY="40.0" prefHeight="23.0" prefWidth="173.0" text="Sign Up" textFill="#252424">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="171.0" layoutY="65.0" prefHeight="23.0" prefWidth="114.0" text="Register New User" textFill="#1b1919">
+                    <font>
+                        <Font name="Segoe UI" size="12.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txtFullName" layoutX="75.0" layoutY="88.0" prefHeight="32.0" prefWidth="278.0" promptText="Full Name" />
+                <TextField fx:id="txtUsername" layoutX="74.0" layoutY="131.0" prefHeight="32.0" prefWidth="278.0" promptText="lastname" text="username" />
+                <TextField fx:id="txtPassword" layoutX="74.0" layoutY="176.0" prefHeight="32.0" prefWidth="278.0" promptText="password" />
+                <Button fx:id="btnSave" layoutX="76.0" layoutY="449.0" mnemonicParsing="false" onMouseClicked="#HandleEvents" prefHeight="32.0" prefWidth="278.0" stylesheets="@../../css/fullpackstyling.css" text="Save" />
+            <ComboBox fx:id="txtQuestion" editable="true" layoutX="75.0" layoutY="277.0" prefHeight="32.0" prefWidth="278.0" promptText="Security Question" />
+            <TextField fx:id="Answer" layoutX="74.0" layoutY="324.0" prefHeight="32.0" prefWidth="278.0" promptText="Answer" text="Answer" />
+            <Label fx:id="lblStatus" alignment="CENTER" layoutX="78.0" layoutY="412.0" prefHeight="23.0" prefWidth="275.0" textFill="#ff6354">
+               <font>
+                  <Font name="Segoe UI" size="10.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="txtUserType" layoutX="76.0" layoutY="227.0" onMouseClicked="#HandleEvents" prefHeight="34.0" prefWidth="275.0" promptText="Select User Type" />
+            <Button fx:id="close" layoutX="413.0" layoutY="-1.0" mnemonicParsing="false" onMouseClicked="#HandleEvents" pickOnBounds="true" prefHeight="30.0" prefWidth="34.0" styleClass="decoration-button-close" stylesheets="@../../css/undecorator.css" text="">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <TextField fx:id="adminkey" layoutX="74.0" layoutY="366.0" prefHeight="32.0" prefWidth="278.0" promptText="Admin Key" />
+            </children>
+        </Pane>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="252.0" prefHeight="41.0" prefWidth="235.0" text="Gym Management Software" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="174.0" fitWidth="96.0" layoutX="167.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

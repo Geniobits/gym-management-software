@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="geniobits.dashboard.controller.DefaultMessagesController">
+   <children>
+      <SplitPane dividerPositions="0.1342281879194631" layoutX="2.0" orientation="VERTICAL" prefHeight="551.0" prefWidth="892.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="94.0" prefWidth="947.0" style="-fx-background-color: #1c69d1;">
+               <children>
+                  <Label fx:id="lblUpdate" alignment="CENTER" contentDisplay="CENTER" layoutX="341.0" layoutY="15.0" prefHeight="41.0" prefWidth="209.0" text="Default Messages" textAlignment="CENTER" textFill="#e5ebee" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="close" layoutX="914.0" layoutY="-1.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" pickOnBounds="true" prefHeight="30.0" prefWidth="34.0" styleClass="decoration-button-close" stylesheets="@../../css/undecorator.css" text="">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="close" layoutX="859.0" layoutY="-1.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" pickOnBounds="true" prefHeight="30.0" prefWidth="34.0" styleClass="decoration-button-close" stylesheets="@../../css/undecorator.css" text="">
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="540.0" prefWidth="948.0" style="-fx-background-color: #1c69d1;">
+               <children>
+                  <Pane layoutX="-5.0" prefHeight="396.0" prefWidth="898.0" style="-fx-background-color: #ffffff;">
+                     <children>
+                        <TextField fx:id="subjectEnd" layoutX="226.0" layoutY="149.0" prefHeight="25.0" prefWidth="652.0" promptText="Enter subject" />
+                        <Label layoutX="19.0" layoutY="162.0" prefHeight="41.0" prefWidth="207.0" text="End Membership Message" textFill="#1d3e90">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <TextArea fx:id="messageEnd" layoutX="226.0" layoutY="179.0" prefHeight="68.0" prefWidth="652.0" promptText="Enter body" />
+                        <TextArea fx:id="messageDOB" layoutX="226.0" layoutY="303.0" prefHeight="68.0" prefWidth="652.0" promptText="Enter body" />
+                        <Label layoutX="19.0" layoutY="286.0" prefHeight="41.0" prefWidth="207.0" text="Birthday Message" textFill="#1d3e90">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="subjectDOB" layoutX="226.0" layoutY="273.0" prefHeight="25.0" prefWidth="652.0" promptText="Enter subject" />
+                        <TextField fx:id="subjectReg" layoutX="227.0" layoutY="27.0" prefHeight="25.0" prefWidth="652.0" promptText="Enter subject" />
+                        <Label layoutX="20.0" layoutY="40.0" prefHeight="41.0" prefWidth="207.0" text="Regestartion Message" textFill="#1d3e90">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <TextArea fx:id="messageReg" layoutX="227.0" layoutY="57.0" prefHeight="68.0" prefWidth="652.0" promptText="Enter body" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="btnSave" layoutX="342.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="31.0" prefWidth="207.0" stylesheets="@../../css/fullpackstyling.css" text="Save" textAlignment="CENTER" textFill="#1d3e90">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

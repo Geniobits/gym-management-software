@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="949.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="geniobits.dashboard.controller.MessageController">
+   <children>
+      <SplitPane layoutX="38.0" layoutY="173.0" maxHeight="300" prefHeight="287.0" prefWidth="869.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="173.0">
+         <items>
+            <GridPane>
+               <children>
+                  <TableView fx:id="tbData" prefHeight="349.0" prefWidth="1066.0" stylesheets="@../../css/fullpackstyling.css">
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                     <columns>
+                        <TableColumn fx:id="Id" prefWidth="75.0" text="Id" />
+                        <TableColumn fx:id="Name" prefWidth="312.0" text="Name" />
+                        <TableColumn fx:id="Email" editable="false" prefWidth="123.0" text="Email" />
+                        <TableColumn fx:id="contact" editable="false" prefWidth="218.0" text="Contact Number" />
+                     </columns>
+                  </TableView>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </items>
+      </SplitPane>
+      <Button fx:id="btnSms" layoutX="258.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="31.0" prefWidth="207.0" stylesheets="@../../css/fullpackstyling.css" text="Send Message" textAlignment="CENTER" textFill="#1d3e90">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEmail" layoutX="481.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="31.0" prefWidth="207.0" stylesheets="@../../css/fullpackstyling.css" text="Send Email" textAlignment="CENTER" textFill="#1d3e90">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="message" layoutX="242.0" layoutY="44.0" prefHeight="68.0" prefWidth="652.0" promptText="Enter body" />
+      <Label layoutX="35.0" layoutY="42.0" prefHeight="41.0" prefWidth="207.0" text="Enter Message" textFill="#1d3e90">
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSettings" layoutX="705.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="31.0" prefWidth="207.0" stylesheets="@../../css/fullpackstyling.css" text="Edit Default Messages" textAlignment="CENTER" textFill="#1d3e90">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAll" layoutX="35.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="31.0" prefWidth="207.0" stylesheets="@../../css/fullpackstyling.css" text="Select All" textAlignment="CENTER" textFill="#1d3e90">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="subject" layoutX="242.0" layoutY="14.0" prefHeight="25.0" prefWidth="652.0" promptText="Enter subject" />
+   </children>
+</AnchorPane>

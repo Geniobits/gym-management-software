@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GenioBITS Gym Software.jnlp">
+  <information>
+    <title>GenioBITS Gym Software</title>
+    <vendor>oXCToo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\JTattoo-1.6.11.jar" size="1205099" download="eager" />
+    <jar href="lib\c3p0-0.9.1.jar" size="608376" download="eager" />
+    <jar href="lib\classes12.jar" size="1590041" download="eager" />
+    <jar href="lib\commons-logging-1.1.1.jar" size="60841" download="eager" />
+    <jar href="lib\controlsfx-8.40.13.jar" size="1213306" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.13.jar" size="20607" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-1.jar" size="135304" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="lib\jacob.jar" size="47833" download="eager" />
+    <jar href="lib\java-json.jar" size="84697" download="eager" />
+    <jar href="lib\javax.mail.jar" size="434923" download="eager" />
+    <jar href="lib\jcalendar-1.4.jar" size="165052" download="eager" />
+    <jar href="lib\jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\jfoenix-9.0.9.jar" size="2414624" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-experimental.jar" size="13796" download="eager" />
+    <jar href="lib\jfreechart-1.0.19-swt.jar" size="79793" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1570157" download="eager" />
+    <jar href="lib\jfreesvg-2.0.jar" size="50769" download="eager" />
+    <jar href="lib\jgoodies-common-1.8.0-sources.jar" size="81564" download="eager" />
+    <jar href="lib\jgoodies-common-1.8.0.jar" size="44844" download="eager" />
+    <jar href="lib\jgoodies-forms-1.8.0-sources.jar" size="174169" download="eager" />
+    <jar href="lib\jgoodies-forms-1.8.0.jar" size="131605" download="eager" />
+    <jar href="lib\joda-time-2.9.1.jar" size="625986" download="eager" />
+    <jar href="lib\junit-4.11.jar" size="245039" download="eager" />
+    <jar href="lib\log4j-1.2.14.jar" size="367444" download="eager" />
+    <jar href="lib\miglayout15-swing.jar" size="85625" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.12.jar" size="732695" download="eager" />
+    <jar href="lib\org.springframework.core-3.0.5.RELEASE.jar" size="382442" download="eager" />
+    <jar href="lib\org.springframework.jdbc-3.0.5.RELEASE.jar" size="385712" download="eager" />
+    <jar href="lib\org.springframework.transaction-3.0.5.RELEASE.jar" size="231922" download="eager" />
+    <jar href="lib\orsoncharts-1.4-eval-nofx.jar" size="445025" download="eager" />
+    <jar href="lib\orsonpdf-1.6-eval.jar" size="72444" download="eager" />
+    <jar href="lib\quartz-1.8.6.jar" size="449135" download="eager" />
+    <jar href="lib\recurrence-11.5.0.jar" size="163375" download="eager" />
+    <jar href="lib\recurrence-8.4.2.jar" size="159924" download="eager" />
+    <jar href="lib\rs2xml.jar" size="171578" download="eager" />
+    <jar href="lib\servlet.jar" size="80054" download="eager" />
+    <jar href="lib\slf4j-api-1.5.2.jar" size="17384" download="eager" />
+    <jar href="lib\slf4j-log4j12-1.5.2.jar" size="9501" download="eager" />
+    <jar href="lib\spring.jar" size="2918231" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.8.11.1.jar" size="5191028" download="eager" />
+    <jar href="lib\swtgraphics2d.jar" size="17492" download="eager" />
+    <jar href="lib\view-8.4.2.jar" size="745112" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GenioBITS Gym Software" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="classes.Main"  name="GenioBITS Gym Software" />
+  <update check="always"/>
+</jnlp>

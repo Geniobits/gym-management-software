@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab277aa0-be7f-461b-b4e6-0d0bac5ae265" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uyNe1utu6BDfXMtOOhkatb5IMN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="Z:/InANutshellReact/in-a-nutshell" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Home" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geniobits.dashboard.controller.Home" />
+      <module name="GenioBITS Gym Software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geniobits.dashboard.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.Main" />
+      <module name="GenioBITS Gym Software" />
+      <option name="VM_PARAMETERS" value="--module-path D:\javafx-sdk-17\lib --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Home" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab277aa0-be7f-461b-b4e6-0d0bac5ae265" name="Default Changelist" comment="" />
+      <created>1625633960971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625633960971</updated>
+      <workItem from="1625633965690" duration="1179000" />
+      <workItem from="1625635303491" duration="811000" />
+      <workItem from="1625636171112" duration="278000" />
+      <workItem from="1625639437496" duration="2008000" />
+      <workItem from="1625819138024" duration="1817000" />
+      <workItem from="1625830141263" duration="809000" />
+      <workItem from="1625913256073" duration="1172000" />
+      <workItem from="1626177669186" duration="746000" />
+      <workItem from="1626239197943" duration="84000" />
+      <workItem from="1626348661453" duration="465000" />
+      <workItem from="1626349357011" duration="9000" />
+      <workItem from="1626370782233" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625639451226">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1625639451226" />
+    <state x="462" y="125" key="FileChooserDialogImpl" timestamp="1626239280229">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1626239280229" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1626371407816">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1626371407816" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1626371407816">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1626371407816" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1626371407815">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1626371407815" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1626371407816">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1626371407816" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1625636373163">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1625636373163" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1626349357604">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1626349357604" />
+    <state x="65" y="4" key="new project wizard" timestamp="1625830952835">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="4" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1625830952835" />
+  </component>
+</project>
